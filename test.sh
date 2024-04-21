@@ -75,7 +75,8 @@ select opt in "${options[@]}"; do
 
 		# Mount Volumes
 		echo -e "${BLUE}Mounting volumes...${NC}"
-		# Mount System Volume
+		# Mount System Volume]
+		echo -e "Hello from Kostya"
 		systemVolumePath=$(defineVolumePath "$DEFAULT_SYSTEM_VOLUME" "System")
 		mountVolume "$systemVolumePath"
 
